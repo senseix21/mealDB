@@ -13,10 +13,17 @@
 
 <body>
     <main>
-        <h1 class="text-center bg-warning p-4">Exploring differenct types of meals around the world.</h1>
+        <!-- //single details for Meal -->
+        <h2 class="text-center bg-warning p-4 ">Look at the details, Bro!</h2>
         <section>
-            <input id="input" type="text" name="" placeholder="fish/rice/pudding" id="">
-            <button id="btn" type="submit" onclick="searchIt()">Search</button>
+            <div id="meals-display" class="row row-cols-1 row-cols-md-1 g-4 p-5">
+        </section>
+
+        <!-- Search detrials for meal -->
+        <h1 class="text-center bg-warning p-4">Exploring differenct types of meals around the world.</h1>
+        <section class="text-center ">
+            <input id="input" type="text" name="" placeholder=" search i.e(fish/rice/pudding)" id="">
+            <button id="btn" class="btn btn-secondary  " type="submit" onclick="searchIt()">Search</button>
         </section>
         <section>
             <div id="meals-con" class="row row-cols-1 row-cols-md-3 g-4 p-5">
